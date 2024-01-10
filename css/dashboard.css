@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family for body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+/* Flex layout for navbar */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Margin for nav links and danger buttons */
+.nav-link, .btn-danger {
+    margin-left: 10px;
+}
+
+/* Container styles */
+.container {
+    margin-top: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Text color for orange text */
+.text-orange {
+    color: orange;
+}
+
+/* Text color for blue text */
+.text-blue {
+    color: blue;
+}
+
+/* Margin for image container */
+.image-container {
+    margin-bottom: 20px;
+}
+
+/* Margin for form controls */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Button styles for danger buttons */
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Margin for table */
+.table {
+    margin-top: 20px;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 767px) {
+    /* Flex direction for navbar on small screens */
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    /* Margin for nav links and danger buttons on small screens */
+    .nav-link, .btn-danger {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
